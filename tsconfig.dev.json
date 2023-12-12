@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "tsBuildInfoFile": "./build/.tsbuildinfo",
+    "incremental": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES2020", // or higher
+    "module": "nodenext"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
